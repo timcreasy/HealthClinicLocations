@@ -31,7 +31,8 @@ function mapHealthClinicLocations(data) {
     // Create marker based on LatLng
     var marker = new google.maps.Marker({
         position: myLatlng,
-        title: markerTitle
+        title: markerTitle,
+        icon: "../img/hospitalMarker.png"
     });
 
     // Add event listener to marker to show infowindow, and setContent
